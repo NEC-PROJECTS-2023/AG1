@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Spam Classifier</title>
+<div id="cont">
+    <textarea style="color:blue; font-size:38px;  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"  rows="1">Email Spam Detection</textarea>
+</div>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script>
+	
+	typeof({{a}})
+	$( function() {
+    $( "#dialog" ).dialog();
+	})
+    
+  </script>
+</head>
+<style>
+    body{
+        background-image: url('https://wallpaperaccess.com/full/1478030.jpg');
+        background-size: cover;
+        filter: blur(0.3px);
+  -webkit-filter: blur(0.3px);
+    }
+    #div {text-align: center;}
+    #div {margin-top: 5%;}
+    textarea {width: 40%;
+    font-size: 25px;}
+    #div {margin-left: 10%;
+margin-right: 10%;
+margin-bottom: 5%;}
+body{font-size:25px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+button{width: 120px;
+height: 40px;
+font-size: 20px;}
+#color{
+    background-color: white;
+}
+</style>
+<body>
+<div id="div"><br><br>
+<form  action="/" method="POST">
+    <textarea rows="7" columns="3" id="one" name="email" placeholder="Enter the testing data here"></textarea><br><br>
+    <button type="submit">Predict</button><br><br>
+</form>
+</div>
+
+<div id="dialog" title="Classification">
+	  This mail is : {{a}}
+	
+	</div>
+</body>
+</html>

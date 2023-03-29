@@ -1,2 +1,2 @@
 # AG1
-EMAIL SPAM DETECTION USING MACHINE LEARNING
+Email Spam Detection using Machine Learning
